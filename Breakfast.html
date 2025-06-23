@@ -1,0 +1,60 @@
+<head>
+    <style>
+        body{
+            background-color: lightsalmon;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 30px 200px 60px;
+            justify-items: center;
+            text-align: center;
+            background-color: rgb(236, 101, 101);
+        }
+        .image{
+            width: 250px;
+            height: 250px;
+            transition: transform 0.3;
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        h1{
+            font-size: 25px;
+        }
+        .coffee{
+            background-color: lightsalmon;
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🥜~Parotta~🥪</h1>
+    <div class="box">
+        <div class="coffee">
+            <img class="image" src="Aloo Pyaz Parotta.png">
+            <h1>Aloo Pyaz Parotta</h1>
+            <p>Price:$120</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Paneer Parotta.png">
+            <h1>Paneer Parotta</h1>
+            <p>Price:$150</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Mix Veg Parotta.png">
+            <h1>Chicken and Sour soup</h1>
+            <p>Price:$160</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Gobi Parotta.png">
+            <h1>Gobi Parotta</h1>
+            <p>Price:$160</p>
+        </div>
+    </div>
+</body>

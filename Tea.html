@@ -1,0 +1,70 @@
+<head>
+    <style>
+        body{
+            background-color: lightgreen;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            padding: 30px 60px 60px;
+            justify-items: center;
+            text-align: center;
+            background-color: rgb(32, 178, 134);
+        }
+        .image{
+            width: 250px;
+            height: 250px;
+            transition: transform 0.3;
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        h1{
+            font-size: 25px;
+        }
+        .coffee{
+            background-color: lightgreen;
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🫖~Tea~🥤</h1>
+    <div class="box">
+        <div class="coffee">
+            <img class="image" src="Mint tea.png">
+            <h1>Mint Tea</h1>
+            <p>Price:$70</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Green tea.png">
+            <h1>Green Tea</h1>
+            <p>Price:$180</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Ginger tea.png">
+            <h1>Ginger Tea</h1>
+            <p>Price:$80</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Black Tea.png">
+            <h1>Black Tea</h1>
+            <p>Price:$50</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Lemon Tea.png">
+            <h1>Lemon Tea</h1>
+            <p>Price:$60</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Ginger lemon honey tea.png">
+            <h1>Ginger Lemon Honey</h1>
+            <p>Price:$120</p>
+        </div>
+    </div>
+</body>

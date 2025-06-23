@@ -1,0 +1,60 @@
+<head>
+    <style>
+        body{
+            background-color: lightsalmon;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 30px 200px 60px;
+            justify-items: center;
+            text-align: center;
+            background-color: rgb(236, 101, 101);
+        }
+        .image{
+            width: 250px;
+            height: 250px;
+            transition: transform 0.3;
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        h1{
+            font-size: 25px;
+        }
+        .coffee{
+            background-color: lightsalmon;
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🍝~Pasta~🍕</h1>
+    <div class="box">
+        <div class="coffee">
+            <img class="image" src="Alfredo Pasta.png">
+            <h1>Alfredo Pasta</h1>
+            <p>Price:$380</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Arrabiata Pasta.png">
+            <h1>Arrabiata Pasta</h1>
+            <p>Price:$380</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Classic Pink Sauce Pasta.png">
+            <h1>Classic Pink Sauce</h1>
+            <p>Price:$380</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Aglio Olio Basilico.png">
+            <h1>Aglio Olio Basilico</h1>
+            <p>Price:$380</p>
+        </div>
+    </div>
+</body>

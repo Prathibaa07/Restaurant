@@ -1,0 +1,55 @@
+<head>
+    <style>
+        body{
+            background-color: violet;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 30px 60px 60px;
+            justify-items: center;
+            text-align: center;
+            background-color: rgb(236, 78, 236);
+        }
+        .image{
+            width: 250px;
+            height: 250px;
+            transition: transform 0.3;
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        h1{
+            font-size: 25px;
+        }
+        .coffee{
+            background-color: violet;
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🍚~Rice~🍚</h1>
+    <div class="box">
+        <div class="coffee">
+            <img class="image" src="Plain Rice.png">
+            <h1>Plain Rie</h1>
+            <p>Price:$150</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Jeera Rice.png">
+            <h1>Jeera Rice</h1>
+            <p>Price:$180</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Garlic Rice.png">
+            <h1>Garlic Rice</h1>
+            <p>Price:$180</p>
+        </div>
+    </div>
+</body>

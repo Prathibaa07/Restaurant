@@ -1,0 +1,60 @@
+<head>
+    <style>
+        body{
+            background-color: lightsalmon;
+            text-align: center;
+            font-weight: bold;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            padding: 30px 200px 60px;
+            justify-items: center;
+            text-align: center;
+            background-color: rgb(236, 101, 101);
+        }
+        .image{
+            width: 250px;
+            height: 250px;
+            transition: transform 0.3;
+        }
+        .image:hover{
+            transform: scale(1.1);
+        }
+        h1{
+            font-size: 25px;
+        }
+        .coffee{
+            background-color: lightsalmon;
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🍫~Pastry~🧇</h1>
+    <div class="box">
+        <div class="coffee">
+            <img class="image" src="Nutella Waffle.png">
+            <h1>Nutella Waffle</h1>
+            <p>Price:$250</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Brownie.png">
+            <h1>Brownie</h1>
+            <p>Price:$150</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Gulab jamun.png">
+            <h1>Gulab Jamun</h1>
+            <p>Price:$100</p>
+        </div>
+        <div class="coffee">
+            <img class="image" src="Chocolate Waffle.png">
+            <h1>Chocolate Waffle</h1>
+            <p>Price:$200</p>
+        </div>
+    </div>
+</body>
